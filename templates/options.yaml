@@ -1,0 +1,6 @@
+OPÇÕES:
+    p: mostrar pedido
+    m: mostrar menu do dia
+    d: alterar prato
+    f: finalizar a compra
+    a: alterar dados de entrega

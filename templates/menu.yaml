@@ -1,0 +1,16 @@
+MENU:
+    pratos:
+        1: Carne Assada = R$29,00
+        2: Cação Ensopado = R$29,00
+        3: Talharim com Almôndegas = R$29,00
+        4: Rondelli 4 queijos(Vegetariano) = R$29,00
+
+    bebidas:
+        5: Suco de laranja = R$8,00
+        6: Coca lata = R$4,00
+        7: Coca lata diet = R$8,00
+            
+    sobremesas:
+        8: Gelatina
+        9: Paçoca
+        10: Maçã

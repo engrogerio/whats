@@ -1,0 +1,48 @@
+# this should be read from a file
+customer = """
+    Nome: Rogério Vieira
+    Endereco: Rua Rio Grande,690
+    Numero: 4444
+"""
+
+welcome = """
+Bem-vindo ao restaurante Rio Grande Rotisserie. 
+Qual o seu pedido de hoje?
+"""
+
+bye = "Obrigado pelo seu pedido! Nosso tempo de entrega é de 30 a 50 min. Bom apetite!"
+
+cart = """
+pedido_atual: Vazio
+"""
+
+menu = """
+pratos:
+    1: Carne Assada = R$29,00
+    2: Cação Ensopado = R$29,00
+    3: Talharim com Almondegas = R$29,00
+    4: Rondelli 4 queijos(Vegetariano) = R$29,00
+
+bebidas:
+    5: Suco de laranja = R$8,00
+    6: Coca lata = R$4,00
+    7: Coca lata diet = R$8,00
+        
+sobremesas:
+    8: Gelatina
+    9: Paçoca
+"""
+
+options = """
+    p: mostrar pedido
+    m: mostrar menu do dia
+    o: mostrar opções
+    d: alterar prato
+    f: finalizar a compra
+    a: alterar dados de entrega
+"""
+
+nl = "___________________________"
+
+message = [welcome,customer, nl, cart, nl, menu, nl, options, bye]
+print(message)
